@@ -45,7 +45,7 @@ public class App
          * 
          * Es decir, todas estos métodos son generales, pueden implementarlos cualquier cosa que esté por debajo de Collection
          * 
-         * Interfaz List
+         * Interfaz List (ver https://www.geeksforgeeks.org/list-interface-java-examples/)
          * Las clases que implementan esta interfaz representan colecciones que:
          * están ordenadas
          * pueden tener duplicados

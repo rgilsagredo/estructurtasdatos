@@ -43,6 +43,7 @@ public class ArrList {
      * devuelve
      * E set(int pos, E elemento) --> cambia lo que hay en pos, y devuleve lo que
      * había
+     * subList(pos1, pos2)
      * 
      * 
      * Pros:
