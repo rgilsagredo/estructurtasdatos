@@ -3,6 +3,7 @@ package daew.programacion.estructurasdatos;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class ArrList {
 
@@ -57,13 +58,13 @@ public class ArrList {
         // Constructores de ArrayList
 
         // vacio
-        ArrayList<Integer> arr1 = new ArrayList<>(); // crea un arraylist que va a tener Integers de momento vacío
+        List<Integer> arr1 = new ArrayList<>(); // crea un arraylist que va a tener Integers de momento vacío
 
         // con una collection inicial
-        ArrayList<Integer> arr2 = new ArrayList<>(Arrays.asList(1, 2, 3, 54, 1));
+        List<Integer> arr2 = new ArrayList<>(Arrays.asList(1, 2, 3, 54, 1));
 
         // con un tamaño predeterinado (no tiene mucho sentido)
-        ArrayList<String> arr3 = new ArrayList<>(5);
+        List<String> arr3 = new ArrayList<>(5);
 
         // operaciones básicas con arrays: add element
         arr1.add(Integer.valueOf(4));
